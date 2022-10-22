@@ -19,7 +19,10 @@ public class Compute {
         }
         return fact;
     }
-
+    public static void Ispisi(double broj) {
+        System.out.printf("Sine function : %f\n", Sinus(broj));
+        System.out.printf("Factorial : %f\n", Factorial(broj));
+    }
 
 
 
